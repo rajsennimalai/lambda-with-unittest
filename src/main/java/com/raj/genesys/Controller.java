@@ -21,9 +21,13 @@ public class Controller {
         //1 dept can have multiple employee
         // 1 employee can be part of multiple dept
         Map<String, List<String>> empIdDeptList;
+        
+        int a;
+        int b;
 
+        int c;
         try {
-            empIdDeptList = new HashMap();
+            empIdDeptList = new HashMap<>();
 
             deptIdEmployeeList.entrySet().forEach(deptId -> {
                 deptId.getValue().stream().map(emp -> {
