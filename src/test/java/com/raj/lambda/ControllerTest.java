@@ -3,13 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.raj.genesys;
+package com.raj.lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.raj.lambda.Controller;
+import com.raj.lambda.Department;
+import com.raj.lambda.Employee;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -60,7 +65,7 @@ public class ControllerTest {
         emp2.setEmpId("emp2");
         emp2.setEmpName("Emp 2");
 
-        List<Employee> dep1Employee = new ArrayList();
+        List<Employee> dep1Employee = new ArrayList<>();
         dep1Employee.add(emp1);
 
         List<Employee> dep2Employee = new ArrayList();
