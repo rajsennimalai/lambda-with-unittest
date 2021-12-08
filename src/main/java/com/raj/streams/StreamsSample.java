@@ -15,7 +15,7 @@ public class StreamsSample {
 //			System.out.println(alphabet);
 //		}
 		
-		System.out.println("test");
+		System.out.println("test1");
 
 		alphabets.stream().forEach(System.out::println);
 		
